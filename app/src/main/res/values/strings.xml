@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FragmentLyra</string>
+    <string name="toastTextBtn">Panggil Toast</string>
+    <string name="exitTextBtn">Keluar Aplikasi</string>
+    <string name="listDialogTextBtn">Panggil List Dialog</string>
+    <color name="white">#FFFFFF</color>
+</resources>

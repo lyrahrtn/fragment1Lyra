@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context="id.sch.smktelkom_mlg.www.fragmentlyra.MainActivity">
+
+    <TextView
+        android:id="@+id/txtKotak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Membuat Kotak Dialog"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:id="@+id/toastBtn"
+        android:layout_height="wrap_content"
+        android:text="@string/toastTextBtn"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtKotak"
+        android:background="#02fafe"></Button>
+
+    <Button
+        android:layout_below="@+id/toastBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/listDialogBtn"
+        android:layout_gravity="center"
+        android:text="@string/listDialogTextBtn"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:background="#0f03fe"></Button>
+
+    <Button
+        android:layout_below="@+id/listDialogBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/exitTextBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:id="@+id/exitBtn"
+        android:background="#fe0101"></Button>
+
+
+</RelativeLayout>
